@@ -6,7 +6,7 @@ import Html from "./pages/html";
 import Css from "./pages/css";
 import JavaScript from "./pages/javascript";
 
-import { createBrowserRouter, RouterProvider,  } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
