@@ -5,6 +5,8 @@ import Home from "./pages/home";
 import Html from "./pages/html";
 import Css from "./pages/css";
 import JavaScript from "./pages/javascript";
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -34,3 +36,4 @@ root.render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
+serviceWorkerRegistration.register();
